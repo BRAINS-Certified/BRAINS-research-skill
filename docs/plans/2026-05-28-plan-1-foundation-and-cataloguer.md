@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Ship v1 of `brains-research` — a public, MIT-licensed Claude Code skill on `shard-BRAINS/BRAINS-Research-Skill` that maintains the BRAINS research library via two slash commands (`/brains-research-process`, `/brains-research-status`) driven by per-machine `config.json`. Existing 102-row corpus on the share is preserved untouched.
+**Goal:** Ship v1 of `brains-research` — a public, MIT-licensed Claude Code skill on `BRAINS-Certified/BRAINS-research-skill` that maintains the BRAINS research library via two slash commands (`/brains-research-process`, `/brains-research-status`) driven by per-machine `config.json`. Existing 102-row corpus on the share is preserved untouched.
 
 **Architecture:** Build the config-driven Python package (`scripts/`) with full pytest coverage in a new local repo `c:\Brains_Research_Skill`. Extract the locked taxonomy, filename rules, organisation abbreviations, and edge-case handling into `references/*.md` files loaded on demand by the slash commands. Wrap as a Claude Code skill with one-line installers (cmd / PowerShell / bash) that scaffold `config.json` and register the commands. Patch the existing share scripts in place as a Phase 0 quick fix so the user has working cataloging against the new UNC path immediately. After the new skill is verified end-to-end, push to GitHub and deprecate the old `/process-research` slash command.
 
@@ -1955,7 +1955,7 @@ bash install/install.sh
 ```bash
 # 1. Clone
 git clone https://github.com/BRAINS-Certified/BRAINS-research-skill.git
-cd BRAINS-Research-Skill
+cd BRAINS-research-skill
 
 # 2. Create a virtual environment
 python -m venv .venv
@@ -2081,7 +2081,7 @@ Thanks for your interest. BRAINS is an Incubator and Trust focused on neuro-affi
 
 ```bash
 git clone https://github.com/BRAINS-Certified/BRAINS-research-skill.git
-cd BRAINS-Research-Skill
+cd BRAINS-research-skill
 python -m venv .venv
 source .venv/bin/activate  # or .venv\Scripts\activate on Windows
 pip install -e ".[dev]"
@@ -2389,7 +2389,7 @@ Run:
 gh auth status
 ```
 
-Expected: shows authenticated user with `shard-BRAINS` access. If not, run `gh auth login` first.
+Expected: shows authenticated user with `BRAINS-Certified` access. If not, run `gh auth login` first.
 
 - [ ] **Step 2: Create the repo**
 
