@@ -1783,7 +1783,7 @@ git -C 'c:\Brains_Research_Skill' push origin v1.1.0
 
 Run:
 ```powershell
-gh release create v1.1.0 --repo shard-BRAINS/BRAINS-Research-Skill --title "v1.1.0 - /brains-research-review" --notes "Adds `/brains-research-review` — per-paper review workflow producing an objective summary, an analytical review, and BRAINS commentary, with optional LinkedIn and Bluesky draft handoff to brains-content. Reviews persist to Reviews/<Category>/<stem>.review.md and the new append-only _reviews.csv ledger (13 columns). New scripts/extract_full.py with per-paper JSON cache. Optional content_drafts_dir config. 44/44 tests passing. No breaking changes to v1.0.0."
+gh release create v1.1.0 --repo BRAINS-Certified/BRAINS-research-skill --title "v1.1.0 - /brains-research-review" --notes "Adds `/brains-research-review` — per-paper review workflow producing an objective summary, an analytical review, and BRAINS commentary, with optional LinkedIn and Bluesky draft handoff to brains-content. Reviews persist to Reviews/<Category>/<stem>.review.md and the new append-only _reviews.csv ledger (13 columns). New scripts/extract_full.py with per-paper JSON cache. Optional content_drafts_dir config. 44/44 tests passing. No breaking changes to v1.0.0."
 ```
 
 Expected: returns the release URL.

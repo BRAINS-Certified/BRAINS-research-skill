@@ -1954,7 +1954,7 @@ bash install/install.sh
 
 ```bash
 # 1. Clone
-git clone https://github.com/shard-BRAINS/BRAINS-Research-Skill.git
+git clone https://github.com/BRAINS-Certified/BRAINS-research-skill.git
 cd BRAINS-Research-Skill
 
 # 2. Create a virtual environment
@@ -2080,7 +2080,7 @@ Thanks for your interest. BRAINS is an Incubator and Trust focused on neuro-affi
 ## Development setup
 
 ```bash
-git clone https://github.com/shard-BRAINS/BRAINS-Research-Skill.git
+git clone https://github.com/BRAINS-Certified/BRAINS-research-skill.git
 cd BRAINS-Research-Skill
 python -m venv .venv
 source .venv/bin/activate  # or .venv\Scripts\activate on Windows
@@ -2395,10 +2395,10 @@ Expected: shows authenticated user with `shard-BRAINS` access. If not, run `gh a
 
 Run:
 ```powershell
-gh repo create shard-BRAINS/BRAINS-Research-Skill --public --description "A Claude Code skill for maintaining the BRAINS research library — extract, dedupe, categorise, rename, file PDFs into a locked 10-category taxonomy. An Incubator project from BRAINS."
+gh repo create BRAINS-Certified/BRAINS-research-skill --public --description "A Claude Code skill for maintaining the BRAINS research library — extract, dedupe, categorise, rename, file PDFs into a locked 10-category taxonomy. An Incubator project from BRAINS."
 ```
 
-Expected: `https://github.com/shard-BRAINS/BRAINS-Research-Skill` created.
+Expected: `https://github.com/BRAINS-Certified/BRAINS-research-skill` created.
 
 ### Task M2: Push the repo
 
@@ -2406,7 +2406,7 @@ Expected: `https://github.com/shard-BRAINS/BRAINS-Research-Skill` created.
 
 Run:
 ```powershell
-git -C 'c:\Brains_Research_Skill' remote add origin https://github.com/shard-BRAINS/BRAINS-Research-Skill.git
+git -C 'c:\Brains_Research_Skill' remote add origin https://github.com/BRAINS-Certified/BRAINS-research-skill.git
 ```
 
 - [ ] **Step 2: Push main**
@@ -2422,7 +2422,7 @@ Expected: `main` pushed; remote tracking set.
 
 Run:
 ```powershell
-gh repo view shard-BRAINS/BRAINS-Research-Skill --web
+gh repo view BRAINS-Certified/BRAINS-research-skill --web
 ```
 
 Expected: browser opens to the repo. README renders. LICENSE shows MIT. Commit history matches the local repo.
@@ -2441,10 +2441,10 @@ git -C 'c:\Brains_Research_Skill' push origin v1.0.0
 
 Run:
 ```powershell
-gh release create v1.0.0 --repo shard-BRAINS/BRAINS-Research-Skill --title "v1.0.0 — initial release" --notes "Initial release of brains-research. Two slash commands (/brains-research-process, /brains-research-status). Config-driven paths, locked 10-category taxonomy, byte-exact dedupe, append-only catalog, full pytest coverage."
+gh release create v1.0.0 --repo BRAINS-Certified/BRAINS-research-skill --title "v1.0.0 — initial release" --notes "Initial release of brains-research. Two slash commands (/brains-research-process, /brains-research-status). Config-driven paths, locked 10-category taxonomy, byte-exact dedupe, append-only catalog, full pytest coverage."
 ```
 
-Expected: release visible at `https://github.com/shard-BRAINS/BRAINS-Research-Skill/releases`.
+Expected: release visible at `https://github.com/BRAINS-Certified/BRAINS-research-skill/releases`.
 
 ---
 
@@ -2501,7 +2501,7 @@ description: DEPRECATED — use /brains-research-process instead
 
 This command has been replaced by `/brains-research-process` from the `brains-research` skill.
 
-See: https://github.com/shard-BRAINS/BRAINS-Research-Skill
+See: https://github.com/BRAINS-Certified/BRAINS-research-skill
 
 The new command does the same work plus:
 - per-machine `config.json` for paths
