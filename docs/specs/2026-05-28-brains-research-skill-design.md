@@ -228,7 +228,7 @@ Migration steps:
 ### 7.2 Install (post GitHub push)
 
 ```
-git clone https://github.com/shard-BRAINS/BRAINS-Research-Skill.git c:\Brains_Research_Skill
+git clone https://github.com/BRAINS-Certified/BRAINS-research-skill.git c:\Brains_Research_Skill
 cd c:\Brains_Research_Skill
 .\install\install.ps1
 ```

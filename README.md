@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shard-BRAINS/.github/main/profile/brand-mark-dark-bg.png">
-  <img alt="BRAINS" src="https://raw.githubusercontent.com/shard-BRAINS/.github/main/profile/brand-mark-light-bg.png" width="220">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BRAINS-Certified/.github/main/profile/brand-mark-dark-bg.png">
+  <img alt="BRAINS" src="https://raw.githubusercontent.com/BRAINS-Certified/.github/main/profile/brand-mark-light-bg.png" width="220">
 </picture>
 
 # BRAINS Research Skill
@@ -17,7 +17,7 @@
 [![Licence](https://img.shields.io/badge/licence-MIT-0A0A0A?style=for-the-badge&labelColor=D99518)](LICENSE)
 [![Discord](https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=FFFFFF&labelColor=0A0A0A)](https://discord.gg/BEmTXXscBr)
 [![Bluesky](https://img.shields.io/badge/Bluesky-%40brainscertified.com-D99518?style=for-the-badge&logo=bluesky&logoColor=FFFFFF&labelColor=0A0A0A)](https://bsky.app/profile/brainscertified.com)
-[![Incubator](https://img.shields.io/badge/BRAINS-Incubator-4DA8FF?style=for-the-badge&labelColor=0A0A0A)](https://github.com/shard-BRAINS)
+[![Incubator](https://img.shields.io/badge/BRAINS-Incubator-4DA8FF?style=for-the-badge&labelColor=0A0A0A)](https://github.com/BRAINS-Certified)
 
 <br />
 
@@ -31,7 +31,7 @@ A Claude Code skill that maintains the BRAINS research library — a curated, ca
 
 > **Reliable, affirming, inclusive.**
 
-**An Incubator project from [BRAINS](https://github.com/shard-BRAINS) — built by neurodivergent minds, for neurodivergent people.**
+**An Incubator project from [BRAINS](https://github.com/BRAINS-Certified) — built by neurodivergent minds, for neurodivergent people.**
 
 ---
 
@@ -105,7 +105,7 @@ bash install/install.sh
 
 ```bash
 # 1. Clone
-git clone https://github.com/shard-BRAINS/BRAINS-research-skill.git
+git clone https://github.com/BRAINS-Certified/BRAINS-research-skill.git
 cd BRAINS-research-skill
 
 # 2. Create + activate a virtual environment
@@ -178,13 +178,13 @@ This is a **BRAINS Incubator** project — internal infrastructure that keeps th
 
 | | |
 |---|---|
-| ![Incubator](https://img.shields.io/badge/BRAINS-Incubator-4DA8FF?style=flat-square&labelColor=0A0A0A) | New projects, partnerships, prototypes — see the [BRAINS org page](https://github.com/shard-BRAINS) |
-| ![Resume](https://img.shields.io/badge/-BRAINS--resume--skill-D99518?style=flat-square&labelColor=0A0A0A) | Sister skill — [ND-aware résumé toolkit](https://github.com/shard-BRAINS/BRAINS-resume-skill) |
-| ![BuildPlatform](https://img.shields.io/badge/-BRAINS--build--platform-D99518?style=flat-square&labelColor=0A0A0A) | Companion delivery tooling — [agentic end-to-end builds](https://github.com/shard-BRAINS/BRAINS-build-platform) |
+| ![Incubator](https://img.shields.io/badge/BRAINS-Incubator-4DA8FF?style=flat-square&labelColor=0A0A0A) | New projects, partnerships, prototypes — see the [BRAINS org page](https://github.com/BRAINS-Certified) |
+| ![Resume](https://img.shields.io/badge/-BRAINS--resume--skill-D99518?style=flat-square&labelColor=0A0A0A) | Sister skill — [ND-aware résumé toolkit](https://github.com/BRAINS-Certified/BRAINS-resume-skill) |
+| ![BuildPlatform](https://img.shields.io/badge/-BRAINS--build--platform-D99518?style=flat-square&labelColor=0A0A0A) | Companion delivery tooling — [agentic end-to-end builds](https://github.com/BRAINS-Certified/BRAINS-build-platform) |
 | ![Discord](https://img.shields.io/badge/-Discord-5865F2?style=flat-square&logo=discord&logoColor=FFFFFF&labelColor=0A0A0A) | Join the BRAINS Community — [discord.gg/BEmTXXscBr](https://discord.gg/BEmTXXscBr) |
 
 | ![Bluesky](https://img.shields.io/badge/-Bluesky-D99518?style=flat-square&logo=bluesky&logoColor=FFFFFF&labelColor=0A0A0A) | Follow updates — [@brainscertified.com on Bluesky](https://bsky.app/profile/brainscertified.com) |
-If you'd like to use the skill on your own research collection, or contribute, see the Incubator application process at the [org page](https://github.com/shard-BRAINS#apply-to-join-the-incubator), or jump straight into [the Discord](https://discord.gg/BEmTXXscBr), or follow updates on [Bluesky](https://bsky.app/profile/brainscertified.com).
+If you'd like to use the skill on your own research collection, or contribute, see the Incubator application process at the [org page](https://github.com/BRAINS-Certified#apply-to-join-the-incubator), or jump straight into [the Discord](https://discord.gg/BEmTXXscBr), or follow updates on [Bluesky](https://bsky.app/profile/brainscertified.com).
 
 ---
 
