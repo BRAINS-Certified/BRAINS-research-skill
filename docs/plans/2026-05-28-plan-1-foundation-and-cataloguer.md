@@ -2378,7 +2378,7 @@ git -C 'c:\Brains_Research_Skill' commit -m "Add one-line installers for Windows
 
 ## Phase M — GitHub release
 
-Goal: Push the repo to `shard-BRAINS/BRAINS-Research-Skill`, public, MIT.
+Goal: Push the repo to `BRAINS-Certified/BRAINS-research-skill`, public, MIT.
 
 ### Task M1: Create the GitHub repo
 
@@ -2545,7 +2545,7 @@ git -C 'c:\Brains_Research_Skill' push origin main
 
 Re-check each before marking the plan complete:
 
-1. **Repo `shard-BRAINS/BRAINS-Research-Skill` exists, public, MIT licensed.** — verified by Task M2 step 3.
+1. **Repo `BRAINS-Certified/BRAINS-research-skill` exists, public, MIT licensed.** — verified by Task M2 step 3.
 2. **README is brand-compliant and modelled on `BRAINS-resume-skill`'s README.** — verified by Task K1.
 3. **`install.ps1` runs cleanly on Matthew's Windows machine, produces a working `config.json` and registers both slash commands.** — verified by Task L4.
 4. **`/brains-research-process` against the current inbox produces the same outcome as the old `/process-research` (three PDFs catalogued into the correct categories, `_catalog.csv` extended by three rows).** — verified by Task N1 step 3.
